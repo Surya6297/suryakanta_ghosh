@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+   
+    font-size: 20px;
+    
+    /* background-repeat: no-repeat; */
+    /* background-image: url("images/bg.jpg");
+     s */
+/* background-color: rgb(78, 14, 14); */
+}/*
+header{
+    background-color: brown;
+}
+main{
+    background-color: blueviolet;
+}
+footer{
+    background-color: aqua;
+}
+*/
+#bio{
+    color: rgb(0, 0, 0);
+}
+/* .navdiv{
+    display: flex;
+align-items: center;
+   text-align: center;
+    overflow: hidden;
+    background-color: rgb(7, 34, 63);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+} */
+
+/* .navdiv a {
+    display: flex;
+   
+   
+    text-align: center;
+    float: none;
+        color: rgb(234, 225, 225);
+        
+       text-decoration: none;
+        cursor: pointer;
+      } */
+
+
+      .profile{
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+    /* margin-right: 0px; */
+        background-color: blue;
+    
+
+      }
+      .profile img{
+        float: left;
+        /* margin-left:5px;
+        margin-top: 5px;
+        margin-bottom: 5px; */
+        border: 2px solid red;
+   
+      }
+      .profile h1{
+        margin: 0;
+        color:rgb(16, 15, 15);
+        border: 2px solid red;
+        border-radius: 2px;
+        text-align: center;
+   
+      }
+    
+      h1 {
+        text-align: center;
+     }
+
+.footer{
+display: flex;
+justify-items: center;
+flex-direction: column;
+height:auto;
+text-align: center;
+    background-color: rgb(27, 136, 158);
+    overflow: hidden;
+   
+}
+.footer a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.main{
+    background-color: rgb(12, 101, 62);
+}
